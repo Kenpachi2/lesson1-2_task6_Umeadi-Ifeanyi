@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            http-equiv="X-UA-Compatible"
+            content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0" />
+        <title>NFT Waitlist |Signup</title>
+    </head>
+    <body>
+        <form
+            method="post"
+            action="#">
+            <h2>Waitlist Registration Form</h2>
+            <!-- Personal Information -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required /><br /><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required /><br /><br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required /><br /><br>
+            <!-- Login Information -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required /><br /><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required /><br /><br>
+            <!-- Gender -->
+            <p>Gender:</p><br />
+            <input type="radio" id="male" name="gender" value="male" required />
+            <label for="male">Male</label><br />
+            <input type="radio" id="female" name="gender" value="female" required />
+            <label for="female">Female</label><br />
+            <input type="radio" id="other" name="gender" value="other" required />
+            <label for="other">Other</label><br /><br>
+            <!-- Country -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="null">Select a country</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">UK</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Zimbabwe">Zimbabwe</option>
+                <option value="Australia">Australia</option>
+                <option value="Egypt">Egypt</option>
+                <option value="Other">Other</option>
+            </select><br /><br />
+            <!-- Terms and Conditions -->
+            <a href="/html/T&C.html">Terms and Conditions</a>
+            <input type="checkbox" id="terms" name="terms" required />
+            <label for="terms">I agree to the terms and conditions</label><br /><br />
+            <!-- Submit Button -->
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>
