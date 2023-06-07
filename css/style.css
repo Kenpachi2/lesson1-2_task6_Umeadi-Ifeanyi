@@ -50,3 +50,34 @@ table {
 
 
 /* Write your css below here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	background-color: blue;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 70%;
+	width: 30%;
+	margin: 70px auto;
+	background-color: antiquewhite;
+	padding: 20px;
+	color: #76065f;
+}
+h2{
+	background-color: rgb(230, 13, 157);
+	font-size: 20px;
+	left: 30%;
+	text-align: center;
+}
+#country:hover, 
+.submit:hover, 
+#terms {
+	cursor: pointer;
+}
